@@ -170,7 +170,7 @@ export default function App() {
             </div>
 
             {/* Title */}
-            <div className="text-center px-4 pb-1 z-[4]">
+            <div className="text-center px-4 pb-1 z-[25]  relative">
               <h1
                 className="text-white text-[5.5vw] sm:text-[24px] md:text-[30px] font-black uppercase tracking-wider leading-none"
                 style={{
@@ -204,7 +204,7 @@ export default function App() {
               {/* Wooden board — wider than the container */}
               <div
                 className="relative mx-auto mb-10"
-                style={{ width: '136%', marginLeft: '-18%', marginTop: '-5%' }}
+                style={{ width: '136%', marginLeft: '-18%', marginTop: '-10%' }}
               >
                 <img src={imgWoodenBoard} alt="" className="w-full h-auto block" />
 
@@ -288,8 +288,8 @@ export default function App() {
           href="https://www.instagram.com/inwoq.official/"
           target="_blank"
           rel="noopener noreferrer"
-          className="absolute bottom-4 left-1/2 -translate-x-1/2 z-20 text-bold text-white/60 text-[17px] hover:text-white/90 transition-colors no-underline"
-          style={{ fontFamily: "'ADLaM Display','Georgia',serif" }}
+          className="absolute bottom-4 left-1/2 -translate-x-1/2 z-20 font-bold text-white/60 text-[15px] hover:text-white/90 transition-colors no-underline"
+          style={{ fontFamily: "'Inter','Segoe UI','Helvetica Neue',sans-serif", letterSpacing: '1px' }}
         >
           Powered By INWOQ
         </a>
