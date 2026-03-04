@@ -260,13 +260,13 @@ export default function App() {
         {/* ── NAV ARROWS ── */}
         <button
           onClick={() => go(-1)}
-          className="absolute top-1/2 left-2 -translate-y-1/2 w-14 h-14 z-20 cursor-pointer border-none bg-transparent p-0 hover:scale-110 transition-transform"
+          className="absolute top-[35%] left-2 -translate-y-1/2 w-14 h-14 z-20 cursor-pointer border-none bg-transparent p-0 hover:scale-110 transition-transform"
         >
           <img src={imgArrowLeft} alt="Previous" className="w-full h-full object-contain" />
         </button>
         <button
           onClick={() => go(1)}
-          className="absolute top-1/2 right-2 -translate-y-1/2 w-14 h-14 z-20 cursor-pointer border-none bg-transparent p-0 hover:scale-110 transition-transform"
+          className="absolute top-[35%] right-2 -translate-y-1/2 w-14 h-14 z-20 cursor-pointer border-none bg-transparent p-0 hover:scale-110 transition-transform"
         >
           <img src={imgArrowRight} alt="Next" className="w-full h-full object-contain" />
         </button>
